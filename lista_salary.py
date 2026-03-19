@@ -1,4 +1,6 @@
-df = pd.read_xlsx(r"C:\Users\julia\Documents\analisedados\salary.xlsx")
+import pandas as pd
+arquivo = "salary.xslsx"
+df = pd.read_excel(arquivo)
 
 #1.	Quantas linhas e quantas colunas tem o dataset?
 
