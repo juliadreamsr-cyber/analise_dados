@@ -1,6 +1,7 @@
 # LISTA DE EXERCÍCIOS – ANÁLISE DE DADOS COM PANDAS Dataset: Ranking
 # Mundial de Universidades (notas.csv)
 import pandas as pd
+
 df = pd.read_csv(r"C:\Users\julia\Documents\analisedados\notas.csv")
 # ============================================================
 # EXPLORAÇÃO INICIAL (EDA BÁSICA)
